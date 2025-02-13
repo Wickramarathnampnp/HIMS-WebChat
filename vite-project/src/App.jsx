@@ -10,7 +10,7 @@ function App() {
   
   useEffect(() => {
     const fetchToken = async () => {
-      const directLineSecret = "1fIfyVoVh6A2eVQKoU4sxVDG72eZFzlxVZAo4tlmWjWqTMS6VFtmJQQJ99BBAC5RqLJAArohAAABAZBS3mkR.BxorCYylcr9quARsQKpNRQT1OffYBbftqJ374IHxpT4yGBO3A755JQQJ99BBAC5RqLJAArohAAABAZBS40OL";
+      const directLineSecret = "YOUR_DIRECT_LINE_SECRET";
       const response = await fetch("https://directline.botframework.com/v3/directline/tokens/generate", {
         method: "POST",
         headers: {
